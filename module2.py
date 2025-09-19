@@ -1,9 +1,5 @@
 import csv
-
-import funcs.functions
 import pandas as pd
-from twine import package
-from funcs import *
 
 data = []
 def load_csv(file_name):
@@ -45,7 +41,5 @@ if __name__ == '__main__':
     # print("CSV Method: ", len(data))
     data.clear()
     df = load_csv_pandas(file_name)
-    # print("Pandas Method: ", len(df))
-    # print(df.describe())
-
-    print("Imported function output: ", funcs.functions.get_stddev(df, 2))
+    print("Pandas Method: ", len(df))
+    print(df.describe())

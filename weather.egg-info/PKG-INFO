@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: weather
+Version: 0.1
+Summary: Weather patterns
+Home-page: https://github.com/avrahsni/CS3270/
+Author: Snir Avrahami
+Author-email: 10960141@uvu.edu
+License: MIT AND (Apache-2.0 OR BSD-2-Clause)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
